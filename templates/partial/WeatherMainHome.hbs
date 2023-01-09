@@ -1,0 +1,42 @@
+<main class="weather_detail">
+    <div class="container-fluid">
+        <section>
+            <div class="container weatherresponsive">
+                <div class="container search_bar">
+                    <div class="table-responsive" id="formsearch">
+
+                    <input type="text" name="search" id="search" placeholder="Enter City Name">
+                    <button id="submitbtn">Search</button>
+                    </div>
+                    {{!-- <input type="submit" id="submitbtn"> --}}
+                </div>
+                <div class="container-fluid weather_result">
+                    <div class="error">
+                        <span id="error" class="text-danger fs-1"></span>
+                    </div>
+                    <div class="date">
+                        <div id="Date">Date</div>
+                        <div id="Year">Year</div>
+                    </div>
+                    <div class="hide" id="displayshow">
+
+                <div class="result">
+                    <h3 id="temp">Temp<span>&deg;C</span></h3>
+                </div>
+                <div class="result">
+                    <h4 id="condition">condition</h4>
+                </div>
+                    <div class="location">
+                        <div id="City">
+                            City
+                        </div>
+                        <div id="Country">
+                            Country
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
